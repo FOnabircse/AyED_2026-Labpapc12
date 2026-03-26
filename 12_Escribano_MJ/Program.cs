@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string nombre;
+            string juego;
+            string consola;
+            Console.WriteLine("Hola usuario");
+            Console.Write("¿Cual es tu nombre?: ");
+            nombre = Console.ReadLine();
+            Console.Write("¿Cual es tu juego favorito?: ");
+            juego = Console.ReadLine();
+            Console.Write("¿En que consola lo jugas?: ");
+            consola = Console.ReadLine();
+
+            Console.WriteLine("Hola " + nombre + ". Tu juego favorito es " + juego + " y se juega en " + consola);
+        }
+    }
+}
