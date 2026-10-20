@@ -11,10 +11,10 @@ namespace ConsoleApplication1
 
         static void Main(string[] args)
         {
-            pipo();
+            jose();
         }
 
-        static void pipo()
+        static void jose()
         {
             Console.Write("Ingrese un numero entero positivo: ");
             int numero = int.Parse(Console.ReadLine());
